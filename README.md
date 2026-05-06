@@ -45,3 +45,22 @@ This project demonstrates end-to-end UI test automation using Playwright for a P
 npm install
 npx playwright install
 npx playwright test
+
+**Run specific tags:**
+npx playwright test --grep @smoke
+npx playwright test --grep @regression
+
+HTML Report:
+npx playwright show-report
+
+Run tests in a specific browser:
+
+```bash
+npx playwright test --project=chromium
+npx playwright test --project=firefox
+npx playwright test --project=webkit
+
+---
+
+Run Tests in Headed Mode (UI Visible)
+npx playwright test --headed
