@@ -53,13 +53,10 @@ npx playwright test --grep @regression
 ## HTML Report
 npx playwright show-report
 
-Run tests in a specific browser:
-
 ## Run Tests in Specific Browsers
 npx playwright test --project=chromium
 npx playwright test --project=firefox
 npx playwright test --project=webkit
-
 
 ## Run Tests in Headed Mode (UI Visible)
 npx playwright test --headed
