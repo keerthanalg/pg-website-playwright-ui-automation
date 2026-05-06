@@ -1,2 +1,47 @@
 # pg-website-playwright-ui-automation
-Playwright-based UI automation framework for a PG web application with cross-browser testing and validation scenarios
+This project demonstrates end-to-end UI test automation using Playwright for a PG (Paying Guest) web application.
+
+---
+
+## Tech Stack
+- Playwright
+- JavaScript
+- Node.js
+- Formik + Yup (Frontend validation testing)
+- Cross-browser testing (Chromium, Firefox, WebKit)
+
+## Test Modules Covered
+
+### Feedback & Support Module
+- Submit positive feedback
+- Submit negative feedback
+- Submit support queries
+
+### Validation Testing
+- Required field validation
+- Missing radio button selection
+- Empty input validation
+
+### Public Pages
+- Booking form submission
+- Contact form submission
+
+### Authentication
+- Login flow
+- Forgot password
+- User registration
+
+---
+
+##  Test Tags
+- `@smoke` → Critical flows
+- `@regression` → Full validation suite
+
+---
+
+## How to Run Tests
+
+```bash
+npm install
+npx playwright install
+npx playwright test
