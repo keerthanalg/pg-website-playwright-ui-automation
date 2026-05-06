@@ -62,7 +62,7 @@ npx playwright test --project=webkit
 npx playwright test --headed
 
 
-##  Test Execution Report (All Tests Passed ✅)
+##  Test Execution Report (All Tests Passed)
 Playwright HTML report showcasing cross-browser testing (Chromium, Firefox, and WebKit) with a 100% pass rate and zero flaky tests.
 
 <img width="1836" height="939" alt="Image" src="https://github.com/user-attachments/assets/4e44259d-8488-4de8-8e76-9b0998e3a9d8" />
