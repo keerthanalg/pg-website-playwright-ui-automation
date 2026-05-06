@@ -60,5 +60,4 @@ npx playwright test --project=webkit
 
 ## Run Tests in Headed Mode (UI Visible)
 npx playwright test --headed
-<img width="1920" height="1080" alt="Screenshot 2026-05-06 143207" src="https://github.com/user-attachments/assets/275287cf-663b-4090-8485-8f889c703bfc" />
 
